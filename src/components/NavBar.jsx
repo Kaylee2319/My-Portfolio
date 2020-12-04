@@ -8,19 +8,20 @@ const NavBar = () => {
   return (
     <>
       <div className="navbar">
-      <Link to="/" className="name">
-          Kaylee Harding
-        </Link>
-        <Link to="/about" className="menu">
+        <div className='links'>
+          <Link to="/" className="Link">
+          Home
+          </Link>
+          <Link to="/about" className="Link">
           About Me
-        </Link>
-        <Link to="/resume" className="menu">
+          </Link>
+          <Link to="/resume" className="Link">
           My Resume
-        </Link>
-        <Link to="/contact" className="profile">
+          </Link>
+          <Link to="/contact" className="Link">
           Contact Me
-        </Link>
-          
+          </Link>
+        </div>
       </div>
     </>
   );

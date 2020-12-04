@@ -5,12 +5,12 @@ import '../css/Resume.css';
 const Resume = () => {
 
   return (
-    <>
+    <body className="resumePage">
     <NavBar />
-      <div className="Join">
+      <div className="">
         <h1>Resume!</h1>
       </div>
-    </>
+    </body>
   );
 };
 

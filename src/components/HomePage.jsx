@@ -6,12 +6,12 @@ import '../css/HomePage.css';
 const HomePage = () => {
 
   return (
-    <>
+    <body className="homePage">
     <NavBar />
-      <div className="Join">
+      <div >
         <h1>Homepage!</h1>
       </div>
-    </>
+    </body>
   );
 };
 

@@ -5,12 +5,12 @@ import '../css/About.css';
 const About = () => {
 
   return (
-    <>
+    <body className="aboutPage">
     <NavBar />
-      <div className="Join">
+      <div className="">
         <h1>ABOUT!</h1>
       </div>
-    </>
+    </body>
   );
 };
 

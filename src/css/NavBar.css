@@ -1,20 +1,25 @@
 
 .navbar {
+    width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: baseline;
+    background-image: url(../images/navback5.jpg);
+    border-bottom: 5px  rgb(214, 21, 182) solid;
+    padding: .5rem;
   }
-  
-  .name {
-    font-family: 'Unica One', cursive;
-    font-size: 2.65rem;
-    color: rgba(5, 95, 158, 1);
+ 
+  .links{
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+    font-size: 1.5rem;
     text-decoration: none;
   }
-  .profile {
-    border: none;
-    background-color: white;
+
+  .Link{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: honeydew;
   }

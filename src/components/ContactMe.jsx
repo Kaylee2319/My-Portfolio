@@ -5,12 +5,12 @@ import '../css/ContactMe.css';
 const Contact = () => {
 
   return (
-    <>
+    <body className="contactPage">
     <NavBar />
-      <div className="Join">
+      <div className="">
         <h1>Contact ME!</h1>
       </div>
-    </>
+    </body>
   );
 };
 

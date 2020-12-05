@@ -2,5 +2,164 @@
     height: 100vh;
     width: 100vw;
     background-image: url(../images/portfoliobackground.jpg);
-    overflow: hidden;
+    overflow-x: hidden;
+}
+.welcome{
+    color: honeydew;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.kayleePic{
+    height: 20rem;
+    width: 15rem;
+    background-image: url(../images/headshot1.jpg);
+    background-position: center;
+    background-size: 93%;
+    border-radius: 50%;
+    border: 5px solid rgb(214, 21, 182);
+    margin-right: 20rem;
+}
+.kayleeName{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: honeydew;
+}
+.kaylee{
+    margin-bottom: -1rem;
+}
+
+.myProjects{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 50%;
+  margin-bottom: 2rem;
+  padding-left: 10px;
+}
+.myProjects::-webkit-scrollbar {
+  height: .5rem;
+}
+   
+.myProjects::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.myProjects::-webkit-scrollbar-thumb {
+  background-color:  rgb(110, 26, 96);
+  outline: 1px solid slategrey;
+}
+
+.myProjects .project {
+  height: 325px;
+  min-width: 200px;
+  max-width: 200px;
+  margin: 3px;
+  font-size: 10px;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#project1{
+  background-image: url(../images/outpost.png);
+}
+
+#project2{
+  background-image: url(../images/pokecardex.png);
+}
+
+#project3{
+    background-image: url(../images/avatar.png);
+  }
+
+#project4{
+  background-image: url(../images/github.png);
+}
+.traits{
+    border: violet 5px solid;
+    margin-top: 5rem;
+}
+
+.projectTitleBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: honeydew;
+}
+
+.projectTitle{
+    margin-bottom: -1.5rem;
+    margin-left: .75rem;
+    color: honeydew;
+}
+
+.HomeBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20rem;
+    margin-top: -1rem;
+}
+
+.traits1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.75rem;
+}
+
+.trait{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/axios.png);
+}
+.trait1{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/react.png);
+}
+.trait2{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/css2.jpg);
+}
+.trait3{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/js.png);
+}
+.trait4{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    background-image: url(../images/mern.png);
+}
+.trait5{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/html.png);
+}
+.trait6{
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/wyncode.png);
 }

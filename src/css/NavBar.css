@@ -2,7 +2,6 @@
 .navbar {
     width: 100vw;
     display: flex;
-    align-items: center;
     justify-content: center;
     align-items: baseline;
     background-image: url(../images/navback5.jpg);
@@ -13,7 +12,6 @@
   .links{
     display: flex;
     justify-content: center;
-    margin-right: 5rem;
     font-size: 1.5rem;
     text-decoration: none;
   }

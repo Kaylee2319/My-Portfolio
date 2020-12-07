@@ -10,15 +10,18 @@ const HomePage = () => {
     <NavBar />
     <div>
       <div className='welcome'>
-        <h1>Welcome</h1>
+        <h1>Welcome.</h1>
       </div>
       
       <div className='HomeBody'>
         <div className='kayleeName'>
           <div className='kayleePic'>
           </div>
-            <h1 className='kaylee'>Kaylee Harding</h1>
-            <h2 className='kaylee'>Full-Stack Web-Developer</h2>
+          <div>
+            <h3 className='kaylee'>Kaylee Harding</h3>
+            <h4 className='kaylee'>Full-Stack Junior</h4>
+            <h4 className='kaylee'>Web-Developer</h4>
+            </div>
         </div>
       <div className='projectTitleBody'>
         <div className='projectTitle'><h1>My Projects</h1></div>

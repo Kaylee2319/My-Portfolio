@@ -3,4 +3,32 @@
     width: 100vw;
     background-image: url(../images/portfoliobackground.jpg);
     overflow: hidden;
+    color: honeydew;
+}
+.theSkills{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.mySkills{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: -1rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+}
+
+.myResume{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.res{
+    margin-top: -.3rem;
 }

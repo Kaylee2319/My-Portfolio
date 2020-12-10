@@ -3,16 +3,42 @@
     width: 100vw;
     background-image: url(../images/portfoliobackground.jpg);
     overflow: hidden;
+    text-align: center;
+    color: honeydew;
 }
-
+.contactInfo{
+    margin-top: 12rem;
+}
 @media only screen and (min-device-width: 800px)  {
+    .contactInfo{
+        margin-top: 14rem;
+    }
 }
 
 @media only screen and (min-device-width: 1000px)  {
+    .contactInfo{
+        margin-top: 18rem;
+    }
 }
 
 @media only screen and (min-width: 1224px) {
+    .contactInfo{
+        background-color: rgba(133, 19, 114, 0.5);
+        border-radius: 12px;
+        border: dashed 2px honeydew;
+        margin-left: 45rem;
+        margin-right: 45rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1824px) {
+    .contactInfo{
+        background-color: rgba(133, 19, 114, 0.5);
+        border-radius: 12px;
+        border: dashed 2px honeydew;
+        margin-left: 45rem;
+        margin-right: 45rem;
+        margin-bottom: 1rem;
+    }
 }

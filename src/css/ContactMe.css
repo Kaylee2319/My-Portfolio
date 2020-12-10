@@ -4,3 +4,15 @@
     background-image: url(../images/portfoliobackground.jpg);
     overflow: hidden;
 }
+
+@media only screen and (min-device-width: 800px)  {
+}
+
+@media only screen and (min-device-width: 1000px)  {
+}
+
+@media only screen and (min-width: 1224px) {
+}
+
+@media only screen and (min-width: 1824px) {
+}

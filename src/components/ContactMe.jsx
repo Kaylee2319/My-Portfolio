@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import '../css/ContactMe.css';
-import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 const Contact = () => {
 
   return (

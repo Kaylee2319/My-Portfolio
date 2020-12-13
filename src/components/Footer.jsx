@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className="Footer">
-      <img className='Footer_Image' src={klogo} alt='logo' />
+    <img className='Footer_Image' src={klogo} alt='logo' />
       <div className='Footer_Quote'>
         THANKS FOR STOPPING BY!
       </div> 

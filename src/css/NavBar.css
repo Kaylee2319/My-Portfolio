@@ -10,12 +10,17 @@
    background-position: center;
    background-size: 95%;
  }
+
   .NavBar_links{
     display: flex;
     justify-content: space-evenly;
     font-size: 15px;
     font-family: 'Oleo Script', cursive;
     margin-top: 5px;
+    color:black;
+  }
+
+  .NavBar_Link{
     color:black;
   }
 

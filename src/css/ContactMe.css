@@ -1,14 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
 .contactPage{
     height: 100vh;
     width: 100vw;
-    background-image: url(../images/portfoliobackground.jpg);
-    overflow: hidden;
     text-align: center;
-    color: honeydew;
+    font-family: 'Oleo Script', cursive;
 }
-.contactInfo{
-    margin-top: 12rem;
+
+.contactPage_InfoBackGround{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
 }
+.contactPage_Info{
+    height: 360px;
+    width: 300px;
+    background-color: #A0F2EB;
+    border-radius: 12px;
+}
+
+.contactPage_FullName{
+    color: #DA76DE;
+    font-weight: 400;
+}
+
+.contactPage_Email{
+    font-weight: 400;
+}
+
+.contactPage_Phone{
+    font-weight: 400;
+    color: #f278f675;
+    margin-top: -1rem;
+}
+
+.contactPage_Link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactPage_linkedin{
+    height: 70px;
+    width: 67px;
+    background-image: url(../images/linkedinpink.png);
+    background-color: #A0F2EB;
+    background-position: center;
+    background-size: 210%;
+    border-radius: 12px;
+    margin-top: 4rem;
+}
+
+.contactPage_Resume{
+    height: 100px;
+    width: 65px;
+    background-image: url(../images/resume.png);
+    background-color: #A0F2EB;
+    background-position: center;
+    background-size: 280%;
+
+}
+
+.contactPage_GitHub{
+    height: 70px;
+    width: 67px;
+    background-image: url(../images/githubpink.png);
+    background-color: #A0F2EB;
+    background-position: center;
+    background-size: 153%;
+    margin-top: 4rem;
+  
+}
+
 @media only screen and (min-device-width: 800px)  {
     .contactInfo{
         margin-top: 14rem;

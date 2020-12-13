@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.PortfolioPage{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Oleo Script', cursive;
+    font-size: 25px;
+}
+
+.PortfolioPage_Title{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #db76de9f;
+    text-decoration: underline;
+}
+
+.PortfolioPage_Links{
+ 
+}
+
+.PortfolioPage_Link1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.PortfolioPage_Link2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.PortfolioPage_React{
+    height: 180px;
+    width: 136px;
+    background-image: url(../images/colors3.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.PortfolioPage_ReaImg{
+    height: 130px;
+    width: 130px;
+    background-image: url(../images/react1.png);
+    background-size: 137%;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.PortfolioPage_Photoshop{
+    height: 180px;
+    width: 136px;
+    background-image: url(../images/colors3.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.PortfolioPage_PhotoImg{
+    height: 130px;
+    width: 130px;
+    background-image: url(../images/adobe-photoshop.png);
+    background-size: 100%;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.PortfolioPage_Figma{
+    height: 180px;
+    width: 136px;
+    background-image: url(../images/colors3.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.PortfolioPage_FigImg{
+    height: 130px;
+    width: 130px;
+    background-image: url(../images/figma.png);
+    background-size: 100%;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.PortfolioPage_Military{
+    height: 180px;
+    width: 136px;
+    background-image: url(../images/colors3.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.PortfolioPage_MilImg{
+    height: 130px;
+    width: 130px;
+    background-image: url(../images/coastguard.png);
+    background-size: 140%;
+    background-position: center;
+    margin-top: 10px;
+}
+@media only screen and (min-device-width: 800px)  {
+    
+    .Skill{
+        background-color: rgba(133, 19, 114, 0.5);
+        border-radius: 12px;
+        border: dashed 2px honeydew;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .mySkills{
+        padding: 1rem;
+    }
+    
+    .myResume{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (min-device-width: 1000px)  {
+    .theSkills{
+        margin-top: 8rem;
+    }
+    
+    .Skill{
+        background-color: rgba(133, 19, 114, 0.5);
+        border-radius: 12px;
+        border: dashed 2px honeydew;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    
+    .mySkills{
+        padding: 1rem;
+    }
+    
+    .myResume{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .theSkills{
+        margin-top: 8rem;
+        font-size: 2.25rem;
+    }
+    
+    .Skill{
+        background-color: rgba(133, 19, 114, 0.5);
+        border-radius: 12px;
+        border: dashed 2px honeydew;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    
+    .mySkills{
+        padding: 1rem;
+    }
+    
+    .myResume{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 1824px) {
+    .theSkills{
+        margin-top: 8rem;
+        font-size: 2.25rem;
+    }
+    
+    .Skill{
+        background-color: rgba(133, 19, 114, 0.5);
+        border-radius: 12px;
+        border: dashed 2px honeydew;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    
+    .mySkills{
+        padding: 1rem;
+    }
+    
+    .myResume{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

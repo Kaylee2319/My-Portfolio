@@ -1,173 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
 .homePage{
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/portfoliobackground.jpg);
+    height: 100vh;
+    width: 100vw;
     overflow-x: hidden;
     overflow-y: scroll;
+    font-family: 'Oleo Script', cursive;
 }
-.welcome{
-    color: honeydew;
+.homePage_Logobody{
+    width: 100vw;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    margin-bottom: -2rem;
+    margin-top: 70px;
 }
-.kayleePic{
-    height: 11rem;
-    width: 8.5rem;
-    background-image: url(../images/headshot1.jpg);
-    background-position: center;
-    background-size: 93%;
-    border-radius: 50%;
-    border: 5px solid rgb(214, 21, 182);
+.homePage_Logo{
+    height: 150px;
+    width: 160px;
 }
-.kayleeName{
+.homePage_FirstName{
+    margin-left: 15px;
+    color: #E7BAE9;
+    font-weight: 400;
+}
+.homePage_LastName{
+    margin-left: 15px;
+    font-weight: 400;
+}
+.homePage_FullName{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    margin-top: 2rem;
-    color: honeydew;
-}
-.kaylee{
-    margin-bottom: -.5rem;
-    margin-top: .5rem;
-}
-
-.myProjects{
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-  width: 100%;
-  padding-left: 10px;
-}
-.myProjects::-webkit-scrollbar {
-  height: .5rem;
-}
-   
-.myProjects::-webkit-scrollbar-track {
-   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.myProjects::-webkit-scrollbar-thumb {
-  background-color:  rgb(110, 26, 96);
-  outline: 1px solid slategrey;
-}
-
-.myProjects .project {
-  height: 200px;
-  min-width: 120px;
-  max-width: 120px;
-  font-size: 10px;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px; 
-}
-
-#project1{
-  background-image: url(../images/outpost.png);
-}
-
-#project2{
-  background-image: url(../images/pokecardex.png);
-}
-
-#project3{
-    background-image: url(../images/avatar.png);
-  }
-
-#project4{
-  background-image: url(../images/github.png);
-}
-.traits{
-    border: rgb(214, 21, 182) 5px solid;
-    margin-top: 2.5rem;
-}
-
-.projectTitleBody{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    color: honeydew;
-    margin-top: 1rem;
-    margin-bottom: 4.5rem;
+    font-size: 28px;
 }
 
-.projectTitle{
+.homePage_TitleName{
+    margin-left: 15px;
+    color: #da7ddf65;
+    font-weight: 400;
+}
+.homePage_TitleNameOne{
+    margin-left: 15px;
+    font-weight: 400;
+    color: #0000005d;
+}
+.homePage_FullTitle{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
-    margin-bottom: -.75rem;
-    margin-right: 13rem;
-    color: honeydew;
-    font-size: .75rem;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -4.75rem;
 }
-
-.traits1{
+.homePage_Veteran{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 1.3rem;
-    margin-bottom: 1.3rem;
+    justify-content: center;
+    font-size: 17px;
+    color: #0000007e;
+    font-weight: 400;
+    margin-top: -2.5rem;
+    margin-left: 15px;
+    margin-bottom: 7.4rem;
 }
-
-.trait{
-    height: 3rem;
-    width: 3rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(../images/axios.png);
-}
-.trait1{
-    height: 3rem;
-    width: 3rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(../images/react.png);
-}
-.trait2{
-    height: 3rem;
-    width: 3rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(../images/css2.jpg);
-}
-.trait3{
-    height: 3rem;
-    width: 3rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(../images/js.png);
-}
-.trait4{
-    height: 3rem;
-    width: 3rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-position: center;
-    background-image: url(../images/mern.png);
-}
-.trait5{
-    height: 3rem;
-    width: 3rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(../images/html.png);
-}
-.trait6{
-    height: 3rem;
-    width: 3rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(../images/wyncode.png);
-}
-
+/* 
 @media only screen and (min-device-width: 800px)  {
     .homePage{
         height: 100%;
@@ -188,7 +79,6 @@
     .kayleePic{
         height: 11rem;
         width: 8.5rem;
-        background-image: url(../images/headshot1.jpg);
         background-position: center;
         background-size: 93%;
         border-radius: 50%;
@@ -352,7 +242,6 @@
     .kayleePic{
         height: 18rem;
         width: 12rem;
-        background-image: url(../images/headshot1.jpg);
         background-position: center;
         background-size: 93%;
         border-radius: 50%;
@@ -493,7 +382,6 @@
     .kayleePic{
         height: 22rem;
         width: 17rem;
-        background-image: url(../images/headshot1.jpg);
         background-position: center;
         background-size: 93%;
         border-radius: 50%;
@@ -640,7 +528,6 @@
     .kayleePic{
         height: 22rem;
         width: 17rem;
-        background-image: url(../images/headshot1.jpg);
         background-position: center;
         background-size: 93%;
         border-radius: 50%;
@@ -765,4 +652,4 @@
         background-size: cover;
         border-radius: 50%;
         background-image: url(../images/wyncode.png);
-    }}    
+    }}     */

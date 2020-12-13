@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.Footer{
+    width: 100vw;
+    height: 85px;
+    background-image: url('../images/colors.jpeg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.Footer_Image{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}

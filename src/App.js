@@ -8,7 +8,6 @@ import Military from './components/Military'
 import Reactapp from './components/React'
 import Figma from './components/Figma'
 import Photoshop from './components/Photoshop'
-import Thankyou from './components/Thankyou'
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route exact path="/photoshop" component={Photoshop} />
           <Route exact path="/figma" component={Figma} />
           <Route exact path="/military" component={Military} />
-          <Route exact path="//mailto:kayleeharding23@gmail.com" component={Thankyou} />
         </Switch>
       </BrowserRouter>
   );

@@ -4,7 +4,7 @@ import Footer from './Footer';
 import portfigma from '../images/portfigma.png'
 import outfigma from '../images/outfigma.png'
 import '../css/Figma.css'
-const Figma = () => {
+const Thankyou = () => {
 
     return (
       <body className="Figma">
@@ -28,4 +28,4 @@ const Figma = () => {
       </body>
  );
 };
-export default Figma
+export default Thankyou

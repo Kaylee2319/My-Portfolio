@@ -17,6 +17,11 @@ const Contact = () => {
         <a href='https://docs.google.com/document/d/e/2PACX-1vRAdzzWEPZrtHrVKxXQqb_FTwmd1OTVllCyaXmXAdIC43Ual0wdpMl7Cx-pi_OnJQVWldPlFFSK35_n/pub'><div className='contactPage_Resume'></div></a>
         <a href='https://github.com/Kaylee2319'><div className='contactPage_GitHub'></div></a>
       </div>
+      <div className='contactPage_EmailMe'>
+        <form action="mailto:kayleeharding23@gmail.com" method="post" enctype="text/plain">
+        <input className='contactPage_EmailMeButton' type="submit" value="EMAIL ME HERE"></input>
+        </form>
+      </div>
       </div>
       </div>
       <Footer />

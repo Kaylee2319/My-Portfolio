@@ -18,10 +18,7 @@ const Contact = () => {
         <a href='https://github.com/Kaylee2319'><div className='contactPage_GitHub'></div></a>
       </div>
       <div className='contactPage_EmailMe'>
-      <a href="mailto:kayleeharding23@gmail.com">Send me an email</a> 
-        {/* <form action="mailto:kayleeharding23@gmail.com" enctype="application/x-www-form-urlencoded">
-        <input className='contactPage_EmailMeButton' type="submit" value="EMAIL ME HERE"></input>
-        </form> */}
+      <a className='contactPage_EmailMeButton' href="mailto:kayleeharding23@gmail.com">EMAIL ME!</a> 
       </div>
       </div>
       </div>

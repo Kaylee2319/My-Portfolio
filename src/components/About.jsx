@@ -32,6 +32,7 @@ const About = () => {
    return(
     <body className="aboutPage">
     <NavBar />
+    <div className="aboutPage_body">
     <div className='aboutPage_quote'>From Oceans To Notions</div>
     <div className='aboutPage_Image'></div>
     <div className='aboutPage_aboutBackground'>
@@ -39,6 +40,7 @@ const About = () => {
          <h1 className='aboutPage_Title'> {aboutMeTitle} </h1>
          <p className='aboutPage_Description'> {aboutMe} </p>
         </div>
+    </div>
     </div>
     <div className='aboutPage_buttons'>
       <button onClick={message} className='aboutPage_button1'>1</button>

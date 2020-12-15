@@ -71,6 +71,13 @@
   
 }
 
+.contactPage_EmailMeButton{
+    border:none;
+    font-family: 'Oleo Script', cursive;
+    background-color:   #f278f675;
+    padding: 10px;
+    border-radius: 12px;
+}
 @media only screen and (min-device-width: 800px)  {
     .contactInfo{
         margin-top: 14rem;

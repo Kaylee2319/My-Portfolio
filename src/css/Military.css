@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+.military{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    font-family: 'Oleo Script', cursive;
+    font-size: 32px;
+    font-weight: 400;
+}
+.military_title{
+    color: #DA76DE;
+    text-decoration: underline;
+    margin: 2rem;
+}
+/* .military_body{
+   
+} */
+.military_awardrow1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.military_achievement{
+    width: 126px;
+    height: 163px;
+    background: url(../images/colorgif1.gif);
+    background-size: cover;
+    border-radius: 12px;
+    text-align: center;
+    color: honeydew;
+}
+.military_achievementtitle{
+    font-size: 15px;
+    margin-left: .15rem;
+    margin-right: .15rem;
+}
+.military_achievementimage{
+    height: 5rem;
+    width: 6rem;
+}
+.military_achievementimage1{
+    height: 5rem;
+    width: 6rem;
+    margin-top: -1.5rem;
+}
+.military_achievementimage2{
+    height: 5rem;
+    width: 6rem;
+    margin-top: -1rem;
+}
+.military_achievementimage3{
+    height: 5rem;
+    width: 4.5rem;
+    margin-top: -1rem;
+}
+.military_awardrow2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.military_awardrow3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.military_awardrow4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}

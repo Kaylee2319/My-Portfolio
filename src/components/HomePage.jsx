@@ -10,7 +10,7 @@ const HomePage = () => {
     <NavBar />
       <div className='homePage_Body'>
         <div className='homePage_Logobody'><img className='homePage_Logo' src={klogo} alt="logo"/></div>
-      </div>
+
           <div className='homePage_Name'>
             <div className='homePage_FullName'>
             <h3 className='homePage_FirstName'>KAYLEE</h3>
@@ -21,6 +21,7 @@ const HomePage = () => {
             <h4 className='homePage_TitleNameOne'>Web Developer</h4>
             </div>
             <h5 className='homePage_Veteran'>UNITED STATES COAST GUARD VETERAN</h5>
+        </div>
         </div>
         <Footer />
     </body>

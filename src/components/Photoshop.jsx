@@ -19,7 +19,7 @@ const Photoshop = () => {
                         <img className='Photoshop_achievementimage1' src={image1006} alt='achievement medal'/>
                     </div>
                     <div className='Photoshop_achievement'>
-                        <p className='Photoshop_achievementtitle'>Coast Guard tshirts</p>
+                        <p className='Photoshop_achievementtitle'>Coast Guard T-Shirts</p>
                         <img className='Photoshop_achievementimage2' src={osaop1} alt='achievement medal'/>
                     </div>
                 </div>

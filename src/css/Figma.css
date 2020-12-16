@@ -29,6 +29,18 @@
     align-items: center;
     color: honeydew;
 }
+.Figma_achievement1{
+    width: 300px;
+    height: 163px;
+    background: url(../images/colorgif1.gif);
+    background-size: cover;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: honeydew;
+}
 .Figma_achievementtitle{
     font-size: 20px;
     margin-bottom: .25rem;
@@ -47,4 +59,72 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 1rem;
+    margin-bottom: 8rem;
+}
+@media only screen and (min-device-width: 800px) {
+    .Figma{
+        font-size: 34px;
+    }
+    .Figma_title{
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+    .Figma_awardrow1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Figma_achievement{
+        width: 825px;
+        height: 390px;
+        background: url(../images/colorgif1.gif);
+        background-size: cover;
+        border-radius: 12px;
+    }
+    .Figma_achievement1{
+        width: 850px;
+        height: 390px;
+        background: url(../images/colorgif1.gif);
+        background-size: cover;
+        border-radius: 12px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: honeydew;
+    }
+    .Figma_achievementtitle{
+        font-size: 20px;
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+        margin-left: .15rem;
+        margin-right: .15rem;
+        text-decoration: underline;
+    }
+    .Figma_achievementimage1{
+        height: 20rem;
+        width: auto;
+        border-radius: 12px;
+        
+    }
+    
+    .Figma_awardrow2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .Figma_title{
+        margin-top: 2rem;
+        margin-left: 25rem;
+        font-size: 45px;
+    }
+}
+
+
+@media only screen and (min-width: 1824px) {
+
+
 }

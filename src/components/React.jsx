@@ -21,11 +21,22 @@ const Reactapp = () => {
         <div className='Reactapp_body'>
           <div className='Reactapp_videos'>
               <div className='Reactapp_videoRow1'>
+                  <div className='Reactapp_back'>
                   <div className='Reactapp_outpost'>
                     <video className='Reactapp_outpostvideo' controls src={outpost} alt='outpost'/>
                     <div className='Reactapp_outpostlinks'>
                     <a className='Reactapp_lighthouse' href='https://github.com/wyncode/c39_armed_forces'><img className='Reactapp_lighthouse' src={Outpostlight} alt='lighthouse'/></a>
                     <a className='Reactapp_slides' href='https://docs.google.com/presentation/d/199Y5AQyuJpVqTc98snlu4oAWdMGXeVpnD_Jn_EnNwBg/edit?usp=sharing'><img className='Reactapp_slides' src={slides1} alt='lighthouse'/></a>
+                 </div>
+                 </div>
+                  </div>
+                  <div className='Reactapp_back'>
+                  <div className='Reactapp_porfolio'>
+                  <img className='Reactapp_portfoliovideo' src={kayporthome} alt='outpost'/>
+                  <div className='Reactapp_Pokelinks'>
+                    <a className='Reactapp_githubpink' href='https://github.com/Kaylee2319/My-Portfolio'><img className='Reactapp_githubpink' src={githubpink} alt='lighthouse'/></a>
+                    <a className='Reactapp_logo' href='https://www.kayleeharding.com/about'><img className='Reactapp_logo' src={klogo} alt='lighthouse'/></a>
+                 </div>
                  </div>
                   </div>
               </div>
@@ -38,15 +49,7 @@ const Reactapp = () => {
                  </div>            
                   </div>
               </div>
-              <div className='Reactapp_videoRow3'>
-              <div className='Reactapp_porfolio'>
-                  <img className='Reactapp_portfoliovideo' src={kayporthome} alt='outpost'/>
-                  <div className='Reactapp_Pokelinks'>
-                    <a className='Reactapp_githubpink' href='https://github.com/Kaylee2319/My-Portfolio'><img className='Reactapp_githubpink' src={githubpink} alt='lighthouse'/></a>
-                    <a className='Reactapp_logo' href='https://www.kayleeharding.com/about'><img className='Reactapp_logo' src={klogo} alt='lighthouse'/></a>
-                 </div>
-                  </div>
-                  </div>
+            
               </div>
           </div>
           <Footer />

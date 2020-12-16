@@ -18,7 +18,7 @@ const Figma = () => {
                     </div>
                 </div>
                 <div className='Figma_awardrow2'>
-                <div className='Figma_achievement'>
+                <div className='Figma_achievement1'>
                         <p className='Figma_achievementtitle'>Outpost</p>
                         <img className='Figma_achievementimage1' src={outfigma} alt='achievement medal'/>
                     </div>

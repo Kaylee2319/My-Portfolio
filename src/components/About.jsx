@@ -6,27 +6,28 @@ import '../css/About.css';
 
 const About = () => {
   
-  const [aboutMe, setAboutMe] = useState(`Hello, I'm Kaylee Harding. I am prior military and a web developer with a love of problem solving and a dedication to my job. CLICK around to find out a little more ABOUT ME.`);
+  const [aboutMe, setAboutMe] = useState(`Hello, I'm Kaylee Harding. I am prior service military turned web developer and have a love of problem solving and dedication to my job. CLICK around to find out a little more ABOUT ME. `);
   const [aboutMeTitle, setAboutMeTitle] = useState('About Me!');
 
   const message = () =>{
-    setAboutMe(`Hello, I'm Kaylee Harding. I am prior military and a web developer with a love of problem solving and a dedication to my job. CLICK around to find out a little more ABOUT ME.`)
+    setAboutMe(`Hello, I'm Kaylee Harding. I am prior service military turned web developer and have a love of problem solving and dedication to my job. CLICK around to find out a little more ABOUT ME.  `)
     setAboutMeTitle('About Me!')
   }
   const message2 = () =>{
-    setAboutMe('Here I learned the MERN stack (MongoDB, Express, React, and Node.js) along with JavaScript, HTML, and CSS. I used the skill and traits I learned in my life before to be able to pitch an idea, and with an amazing team we created and presented an application that is focused around suicidal awareness, it allows vets to connect and play their favorite games. It can be used as a platform for veterans to break the ice between other veterans who have been through similar situations. This project was built using the MERN (MongoDB, Express, React, Node.js) Stack. Other technologies used to improve user experience were Sweet Alert, to notify them when an update is submitted or they are logged out. Send Grid was used to send welcome/goodbye emails when users sign up or close the account. JSON Web Tokens were used to create tokens that validated users throughout the website. Socket.io to allow for communication between users in the chat. Lastly, we used Postman to test the creation of users, and other HTTP requests in the backend. Heroku was used to deploy the app to the web.')
+    setAboutMe(`Here I learned the MERN stack (MongoDB, Express, React, and Node.js) along with JavaScript, HTML, and CSS. With this new knowledge and the skills and values acquired throughout my life, I was able to pitch and develop an application idea. With an amazing team, we were able to bring my ideas to life. This application, Outpost, is focused around veteran suicide rates and allows for a platform to connect with other veterans (through gaming)  who may share similar stories. 
+    This project was built using the MERN (MongoDB, Express, React, Node.js) Stack. Other technologies used to improve user experience were Sweet Alert, to notify you when an update is submitted or you are logged out. Send Grid was used to send welcome/goodbye emails when users sign up or closed the account. JSON Web Tokens were used to create tokens that validated users throughout the website. Socket.io was used to allow for communication between users in the chat. Lastly, we used Postman to test the creation of users, and other HTTP requests in the backend. Lastly, Heroku was used to deploy the app to the web`)
     setAboutMeTitle('Wyncode Academy')
   }
   const message3 = () =>{
-    setAboutMe('I served 5 years active duty in the United States Coast Guard, as a Machinery Technician. I had many duties including Search and Rescue, Engineer of the Watch, Law Enforcement Officer and Communication Watch Standard. I saved countless lives and worked more hours than anyone could count. I repaired and maintained several engines on many different platforms, I have stopped drug runners, I have pulled people from burning boats, and I spent several days looking for a person at sea knowing it was too late but never gave up hope. This time played a huge role in my life strengthening my traits Responsibility, dedication, loyalty, leadership, Communication and perseverance.')
+    setAboutMe('I served 5 years active duty in the United States Coast Guard, as a Machinery Technician. I had many duties including Search and Rescue, Engineer of the Watch, Law Enforcement Officer and Communication Watch Stander. With the values instilled in us from day one of boot camp, I was able to save many lives. As a Machinery Technician you are expected to work until the project or problem is solved, otherwise unit readiness is compromised. I repaired and maintained many different engines, stopped drug runners, pulled people from burning boats, and spent several days looking for a person at sea knowing they may never be found. These high stress situations played a major role in my life while strengthening my personal core values: prepared, professional, proficient.')
     setAboutMeTitle('Coast Guard')
   }
   const message4 = () =>{
-    setAboutMe('To be better today than I was yesterday.To keep a hunger for knowledge. To learn at least one new thing everyday. To maintain the core values ingrained in me while serving... HONOR, RESPECT, DEVOTION TO DUTY')
+    setAboutMe('To be better today than I was yesterday. To keep a hunger for knowledge. To learn at least one new thing everyday. To maintain the core values ingrained in me while serving... HONOR, RESPECT, DEVOTION TO DUTY.')
     setAboutMeTitle('My Drive')
   }
   const message5 = () =>{
-    setAboutMe('I was born and raised in Texas. I went to a small High School, graduating with 40 people. I was In the FFA (Future Farmers of America) I raised and showed many animals and built multiple projects for show including utility trailers, picnic tables, and green houses. I was also one of many teams including Softball, track and field, cross country, and also land judging. This was the start of my wonderful life teaching me important traits like Responsibility, dedication, loyalty, leadership, Communication and perseverance. Guiding me into My next stage of life.')
+    setAboutMe('I was born and raised in Grapeland, Texas, where I was one of only 40 people in my graduating class. I was a member of the FFA (Future Farmers of America) and raised and showed many animals. We also built multiple items for shows including, utility trailers, picnic tables, and green houses. I was also a part of many sports teams including, softball, track and field, cross country, and also land judging. This is where and how I began my amazing journey to become the person I am today.')
     setAboutMeTitle('Early Life')
   }
    return(
